@@ -16,7 +16,7 @@ jobs:
     
       # Build the preview.html file from the rocrate.json
       - name: Build Preview HTML
-        uses: vliz-be-opsci/rocrate-to-html@0cbbc734e296cf4f087aeac3e8cdc3ef32546553
+        uses: vliz-be-opsci/rocrate-to-html@09bc62d57a339d3156ee1aa6332c888b44bc0fcc4
         # 7be7bf6008003e742af445f9cd420fd1437254fd
         # c9aec8d62315e0ae3cffdd5bb46571bee05ebeda
 
