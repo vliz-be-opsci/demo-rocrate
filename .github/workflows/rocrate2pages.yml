@@ -16,7 +16,7 @@ jobs:
     
       # Build the preview.html file from the rocrate.json
       - name: Build Preview HTML
-        uses: vliz-be-opsci/rocrate-to-html
+        uses: vliz-be-opsci/rocrate-to-html@v1
         with:
           crate_path: .
 
@@ -39,7 +39,7 @@ jobs:
         run: |
           echo 'baseurl: test-rocrate-media' > repo.yml
         shell: bash
-        
+
       # Cache jekyll install to speed up builds
       - name: Cache Action
         uses: actions/cache@v3
