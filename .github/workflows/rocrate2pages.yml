@@ -36,9 +36,10 @@ jobs:
       # Create config overrride file for
       # this repo's name
       - name: Create config
-        run: echo 'baseurl: test-rocrate-media' > repo.yml
+        run: |
+          echo 'baseurl: test-rocrate-media' > repo.yml
         shell: bash
-
+        
       # Cache jekyll install to speed up builds
       - name: Cache Action
         uses: actions/cache@v3
