@@ -5,7 +5,7 @@ on:
       - main  # Set a branch name to trigger deployment
   pull_request:
 jobs:
-  build:
+  build-html:
     runs-on: ubuntu-20.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
@@ -16,9 +16,8 @@ jobs:
     
       # Build the preview.html file from the rocrate.json
       - name: Build Preview HTML
-        uses: vliz-be-opsci/rocrate-to-html@8b6421939fd7eb76e911284476c1581d396aa4ba
-        with:
-          crate_path: .
+        uses: vliz-be-opsci/rocrate-to-html@v1.1
+        # 8b6421939fd7eb76e911284476c1581d396aa4ba
 
       # Get a shared theme from a repo and put it
       # into /pages-theme/ folder
