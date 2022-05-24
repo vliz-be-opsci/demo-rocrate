@@ -25,18 +25,13 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: ocean-sampling-day/pages-theme 
-          path: pages-theme
-
-      # Move template files into root dir
-      - name: Move template
-        run:   mv pages-theme/* .
-        shell: bash
-
+          path: build
+          
       # Create config overrride file for
       # this repo's name
       - name: Create config
         run: |
-          echo 'baseurl: test-rocrate-media' > repo.yml
+          echo 'baseurl: test-rocrate-media' > build/repo.yml
         shell: bash
 
       # Cache jekyll install to speed up builds
@@ -53,6 +48,6 @@ jobs:
         uses: helaili/jekyll-action@2.3.1     
         with:                                 
           token: ${{ secrets.GITHUB_TOKEN }}
-          jekyll_src: . 
+          jekyll_src: ./build/ 
           jekyll_build_options: "--config _config.yml repo.yml"
  
