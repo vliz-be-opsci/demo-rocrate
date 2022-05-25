@@ -16,7 +16,7 @@ jobs:
     
       # Build the preview.html file from the rocrate.json
       - name: Build Preview HTML
-        uses: vliz-be-opsci/rocrate-to-html@8c334bb4644c9a46d2795361fb8393acc6c7a001
+        uses: vliz-be-opsci/rocrate-to-html@d4bfe020d3319f3c5e641b76fc9da134806a2bba
 
       # Get a shared theme from a repo and put it
       # into /pages-theme/ folder
