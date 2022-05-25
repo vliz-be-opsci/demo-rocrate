@@ -29,7 +29,7 @@ jobs:
       # this repo's name
       - name: Create config
         run: |
-          echo 'baseurl: test-rocrate-media' > build/repo.yml
+          echo 'baseurl: test-rocrate-media' > repo.yml
         shell: bash
 
       # Cache jekyll install to speed up builds
