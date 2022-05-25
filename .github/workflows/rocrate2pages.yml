@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: ocean-sampling-day/pages-theme 
-          path: build
+          path: unicornfolder
       
       # Build the preview.html file from the rocrate.json
       - name: Build Preview HTML
@@ -46,6 +46,6 @@ jobs:
         uses: helaili/jekyll-action@2.3.1     
         with:                                 
           token: ${{ secrets.GITHUB_TOKEN }}
-          jekyll_src: ./build/ 
+          jekyll_src: ./ 
           jekyll_build_options: "--config _config.yml repo.yml"
  
