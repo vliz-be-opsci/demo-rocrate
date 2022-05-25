@@ -29,12 +29,12 @@ jobs:
       # this repo's name
       - name: Create config
         run: |
-          echo 'baseurl: test-rocrate-media' > repo.yml
+          echo 'baseurl: test-rocrate-media' > ../repo.yml
         shell: bash
       
       - name: Create config ver 2
         run: |
-          echo 'baseurl: test-rocrate-media' > ./unicornpages/repo.yml
+          echo 'baseurl: test-rocrate-media' > ./repo.yml
         shell: bash
 
       # Create config overrride file for
