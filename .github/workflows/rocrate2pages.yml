@@ -19,11 +19,11 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: ocean-sampling-day/pages-theme 
-          path: unicornfolder
+          path: ./
       
       # Build the preview.html file from the rocrate.json
       - name: Build Preview HTML
-        uses: vliz-be-opsci/rocrate-to-html@e96668ddaaac7083872c291067712c01eca155e2
+        uses: vliz-be-opsci/rocrate-to-html@47794b39e86cf241dc5ab71f3b318a5f2435d3b8
  
       # Create config overrride file for
       # this repo's name
