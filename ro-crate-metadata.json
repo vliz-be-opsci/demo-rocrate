@@ -23,6 +23,9 @@
                 },
                 {
                     "@id": "video/"
+                },
+                {
+                    "@id": "README.md"
                 }
             ]
         },
@@ -48,6 +51,9 @@
                 },
                 {
                     "@id": "test_WAV.wav"
+                },
+                {
+                    "@id": "README.md"
                 }
             ]
         },
@@ -69,6 +75,9 @@
             "hasPart": [
                 {
                     "@id": "test_zip.zip"
+                },
+                {
+                    "@id": "README.md"
                 }
             ]
         },
@@ -97,6 +106,9 @@
                 },
                 {
                     "@id": "test_WEBP.webp"
+                },
+                {
+                    "@id": "README.md"
                 }
             ]
         },
@@ -139,6 +151,9 @@
                 },
                 {
                     "@id": "test_xlsx.xlsx"
+                },
+                {
+                    "@id": "README.md"
                 }
             ]
         },
@@ -192,6 +207,9 @@
                 },
                 {
                     "@id": "test_WMV.wmv"
+                },
+                {
+                    "@id": "README.md"
                 }
             ]
         },
@@ -213,6 +231,10 @@
         },
         {
             "@id": "test_WEBM.webm",
+            "@type": "File"
+        },
+        {
+            "@id": "README.md",
             "@type": "File"
         },
         {
