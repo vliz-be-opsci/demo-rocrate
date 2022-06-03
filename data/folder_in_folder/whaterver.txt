@@ -2,6 +2,16 @@
     "@context": "https://w3id.org/ro/crate/1.1/context",
     "@graph": [
         {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
             "@id": "./",
             "@type": "Dataset",
             "datePublished": "2021-11-25T11:27:08+00:00",
@@ -34,16 +44,6 @@
                     "@id": "README.md"
                 }
             ]
-        },
-        {
-            "@id": "ro-crate-metadata.json",
-            "@type": "CreativeWork",
-            "about": {
-                "@id": "./"
-            },
-            "conformsTo": {
-                "@id": "https://w3id.org/ro/crate/1.1"
-            }
         },
         {
             "@id": "audio/",
@@ -198,9 +198,6 @@
                 },
                 {
                     "@id": "rocrate2pages.yml"
-                },
-                {
-                    "@id": "folder_in_folder/"
                 }
             ]
         },
@@ -234,35 +231,6 @@
         },
         {
             "@id": "test_zip.zip",
-            "@type": "File"
-        },
-        {
-            "@id": "folder_in_folder/",
-            "@type": "Dataset",
-            "hasPart": [
-                {
-                    "@id": "nested_structure/"
-                },
-                {
-                    "@id": "whaterver.txt"
-                }
-            ]
-        },
-        {
-            "@id": "nested_structure/",
-            "@type": "Dataset",
-            "hasPart": [
-                {
-                    "@id": "sdfvhijufdrihjuqedfrjmedfmoqfhjgmosqdfh_svgsde-gbvd-g-sdfbv-sdfb-sdf-bsdf-bs-dfbv-xdvb-frsgbv-dsfx-gb-vliquhrvf.txt"
-                }
-            ]
-        },
-        {
-            "@id": "sdfvhijufdrihjuqedfrjmedfmoqfhjgmosqdfh_svgsde-gbvd-g-sdfbv-sdfb-sdf-bsdf-bs-dfbv-xdvb-frsgbv-dsfx-gb-vliquhrvf.txt",
-            "@type": "File"
-        },
-        {
-            "@id": "whaterver.txt",
             "@type": "File"
         },
         {
