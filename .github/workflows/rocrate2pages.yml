@@ -25,9 +25,9 @@ jobs:
       - name: Build Preview HTML
         uses: vliz-be-opsci/rocrate-to-html@2c1769b761f9abd6fbaca44380438c6aa3c4c025
  
-      - name: Create index.html
-        run: |
-             ln -s ./unicornpages/ro-crate-preview.html ./unicornpages/index.html
+#       - name: Create index.html
+#         run: |
+#              ln -s ./unicornpages/ro-crate-preview.html ./unicornpages/index.html
              
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
