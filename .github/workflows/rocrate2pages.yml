@@ -16,6 +16,12 @@ jobs:
       # Build the preview.html file from the rocrate.json
       - name: Build Preview HTML
         uses: vliz-be-opsci/rocrate-to-html@latest
+        
+      - name: install tree 
+        run : apt-get install tree
+        
+      - name: view the ./unicornpages folder content
+        run : tree ./unicornpages
    
       # Deploy to GH-Pages branch
       - name: Deploy
