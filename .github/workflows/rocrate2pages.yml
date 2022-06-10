@@ -17,11 +17,13 @@ jobs:
       - name: Build Preview HTML
         uses: vliz-be-opsci/rocrate-to-html@latest
         
-      - name: install tree and view ./unicornpages
+      - name: install tree and view ./unicornpages and ./
         run : |
           sudo apt-get -y install tree
           which tree
           tree ./unicornpages
+          which tree
+          tree
           
       - name: see what is in the index.html file
         run: |
