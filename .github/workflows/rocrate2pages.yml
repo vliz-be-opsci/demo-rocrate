@@ -22,6 +22,11 @@ jobs:
           sudo apt-get -y install tree
           which tree
           tree ./unicornpages
+          
+      - name: see what is in the index.html file
+        run: |
+          sudo apt-get -y install html2text
+          html2text ./unicornpages/index.html | less
 
       # Deploy to GH-Pages branch
       - name: Deploy
