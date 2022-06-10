@@ -24,6 +24,8 @@ jobs:
           tree ./unicornpages
           which tree
           tree
+          which tree
+          tree ../../
           
       - name: see what is in the index.html file
         run: |
