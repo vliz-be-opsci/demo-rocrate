@@ -15,7 +15,7 @@ jobs:
        
       # Build the preview.html file from the rocrate.json
       - name: Build Preview HTML
-        uses: vliz-be-opsci/new_rocrate_to_pages@latest #vliz-be-opsci/rocrate-to-pages@latest
+        uses: vliz-be-opsci/new_rocrate_to_pages@latest  #vliz-be-opsci/rocrate-to-pages@latest
         
       - name: install tree and view ./unicornpages and ./
         run : |
