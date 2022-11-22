@@ -16,21 +16,11 @@ jobs:
       # Build the preview.html file from the rocrate.json
       - name: Build Preview HTML
         uses: vliz-be-opsci/rocrate-to-pages@latest #vliz-be-opsci/new_rocrate_to_pages@latest
-        
-      - name: install tree and view ./unicornpages and ./
-        run : |
-          sudo apt-get -y install tree
-          which tree
-          tree ./unicornpages
-          which tree
-          tree
-          which tree
-          tree ../../
-          
-      - name: see what is in the index.html file
-        run: |
-          cat ./unicornpages/index.html
 
+      # New html to pages 
+      - name: New Html to pages test
+        uses: vliz-be-opsci/new_rocrate_to_pages@latest
+      
       # Deploy to GH-Pages branch
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
