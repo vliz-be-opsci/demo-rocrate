@@ -12,10 +12,10 @@ jobs:
     steps:
       # Checkout this repo
       - uses: actions/checkout@v3 
-       
+     
       # Build the preview.html file from the rocrate.json
-      - name: Build Preview HTML
-        uses: vliz-be-opsci/rocrate-to-pages@latest #vliz-be-opsci/new_rocrate_to_pages@latest
+      #- name: Build Preview HTML
+      #  uses: vliz-be-opsci/rocrate-to-pages@latest #vliz-be-opsci/new_rocrate_to_pages@latest
 
       # New html to pages 
       - name: New Html to pages test
