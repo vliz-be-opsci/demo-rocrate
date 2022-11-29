@@ -21,7 +21,7 @@ jobs:
       - name: New Html to pages test
         uses: vliz-be-opsci/rocrate-to-pages@latest
         with:
-          crate_path: test crate path here
+          crate_path: https://github.com/vliz-be-opsci/test-rocrate-media
       
       # Deploy to GH-Pages branch
       - name: Deploy
