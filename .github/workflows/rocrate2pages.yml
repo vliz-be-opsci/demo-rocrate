@@ -19,7 +19,7 @@ jobs:
 
       # New html to pages 
       - name: New Html to pages test
-        uses: vliz-be-opsci/rocrate_to_pages@latest
+        uses: vliz-be-opsci/rocrate-to-pages@latest
         with:
           crate_path: test crate path here
       
