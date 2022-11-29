@@ -18,7 +18,7 @@ jobs:
       #  uses: vliz-be-opsci/rocrate-to-pages@latest #vliz-be-opsci/new_rocrate_to_pages@latest
 
       # New html to pages 
-      - name: New Html to pages test
+      - name: Rocrate-to-pages build
         uses: vliz-be-opsci/rocrate-to-pages@latest
         with:
           crate_path: https://github.com/vliz-be-opsci/test-rocrate-media
