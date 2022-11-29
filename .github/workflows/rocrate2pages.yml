@@ -20,6 +20,8 @@ jobs:
       # New html to pages 
       - name: New Html to pages test
         uses: vliz-be-opsci/new_rocrate_to_pages@latest
+        with:
+          crate_path: test crate path here
       
       # Deploy to GH-Pages branch
       - name: Deploy
