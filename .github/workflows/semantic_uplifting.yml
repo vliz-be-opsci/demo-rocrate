@@ -5,7 +5,7 @@ on:
       - main  # Set a branch name to trigger deployment
   pull_request:
 jobs:
-  build-html:
+  Semantic_Uplifting:
     runs-on: ubuntu-20.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
