@@ -209,6 +209,9 @@
                 },
                 {
                     "@id": "./video/test_WMV.wmv"
+                },
+                {
+                    "@id":"https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
                 }
             ]
         },
@@ -496,6 +499,11 @@
             "@id": "./video/test_WMV.wmv",
             "@type": "File",
             "label": "./video/test_WMV.wmv"
+        },
+        {
+            "@id": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
+            "@type": "File",
+            "label": "Not a rickroll"
         },
         {
             "@id": "./README.md",
