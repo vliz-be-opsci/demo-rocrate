@@ -270,13 +270,13 @@
                 "https://twitter.com/mportier",
                 "http://purl.org/np/RAUPyY2DISDVAcR2SVZBUz6_RFUqaCphxWmy1REVFeoWo"
             ],
-            "label": "https://orcid.org/0000-0002-9648-6484"
+            "label": "Marc Portier"
         },
         {
             "@id": "_:39dbf476ac284f9797d71a0a0c83fc22",
             "addressCountry": "BE",
             "@type": "PostalAddress",
-            "label": "_:39dbf476ac284f9797d71a0a0c83fc22"
+            "label": "Adress from somewhere"
         },
         {
             "@id": "_:aa121296a172495dbeb123e17ef99985",
@@ -293,7 +293,7 @@
             "@type": "PropertyValue",
             "propertyID": "RINGGOLD",
             "value": "71343",
-            "label": "_:0463d574529b43169c97acb6507e74c4"
+            "comment": "Ringgold id"
         },
         {
             "@id": "./audio/README.md",
@@ -457,7 +457,7 @@
         {
             "@id": "./microsoft/test_xlsx.xlsx",
             "@type": "File",
-            "label": "./microsoft/test_xlsx.xlsx"
+            "prefLabel": "test_xlsx.xlsx"
         },
         {
             "@id": "./pdf/test_pdf.pdf",
@@ -472,7 +472,7 @@
         {
             "@id": "./video/test_AVI.avi",
             "@type": "File",
-            "label": "./video/test_AVI.avi"
+            "comment": ".test_AVI.avi video file"
         },
         {
             "@id": "./video/test_MKV.mkv",
@@ -488,7 +488,7 @@
             "@id": "./video/test_MPG.mpg",
             "@type": "File",
             "test": "test_here",
-            "label": "./video/test_MPG.mpg"
+            "http://purl.org/dc/terms/title": "test_MPG.mpg"
         },
         {
             "@id": "./video/test_WEBM.webm",
