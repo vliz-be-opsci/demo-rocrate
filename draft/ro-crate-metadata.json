@@ -108,6 +108,15 @@
                     "@id": "./data/imis6293.xml"
                 },
                 {
+                    "@id": "./data/empty-list.json"
+                },
+                {
+                    "@id": "./data/empty-object.json"
+                },
+                {
+                    "@id": "./data/marc-portier.json"
+                },
+                {
                     "@id": "./data/package.json"
                 },
                 {
@@ -355,6 +364,18 @@
         },
         {
             "@id": "./data/imis6293.xml",
+            "@type": "File"
+        },
+        {
+            "@id": "./data/empty-list.json",
+            "@type": "File"
+        },
+        {
+            "@id": "./data/empty-object.json",
+            "@type": "File"
+        },
+        {
+            "@id": "./data/marc-portier.json",
             "@type": "File"
         },
         {
