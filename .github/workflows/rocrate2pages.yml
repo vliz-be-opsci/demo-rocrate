@@ -12,7 +12,12 @@ jobs:
         - name: RO-Crate to Pages
           uses: vliz-be-opsci/rocrate-to-pages@latest
           with:
-            config: .config.yml
+            multiple_rocrates: true
+            RELEASE_managment: true
+            RELEASE_versioning: tag
+            INCLUDE_draft: true
+            draft_folder_name: latest
+            index_html: true
         # Deploy to GH-Pages branch
         - name: Deploy
           uses: peaceiris/actions-gh-pages@v3
