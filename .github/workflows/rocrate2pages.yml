@@ -12,7 +12,7 @@ jobs:
         - name: RO-Crate to Pages
           uses: vliz-be-opsci/rocrate-to-pages@latest
           with:
-            multiple_rocrates: true
+            multiple_rocrates: false
             RELEASE_managment: true
             RELEASE_versioning: tag
             INCLUDE_draft: true
