@@ -13,7 +13,7 @@ jobs:
           uses: vliz-be-opsci/rocrate-to-pages@latest
           with:
             multiple_rocrates: false
-            RELEASE_managment: false
+            RELEASE_manegment: false
             RELEASE_versioning: tag
             INCLUDE_draft: false
             draft_folder_name: latest
