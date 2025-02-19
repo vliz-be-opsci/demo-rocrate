@@ -212,6 +212,33 @@
             ]
         },
         {
+            "@id": ":_6546546816541654816546548131646546546546546546542165494",
+            "@type": "Dataset",
+            "hasPart":[
+                {
+                   "@id": "./video/" 
+                },
+                {
+                    "@id": "./microsoft/test_word.docx" 
+                 },
+                 {
+                    "@id": "./video/test_mp4.mp4" 
+                 },
+                 {
+                    "@id": "https://www.youtube.com/watch?v=dQw4w9WgXcQ" 
+                 }
+            ]
+        },
+        {
+            "@id": "iets/voor/te/verkennen/maar/beke/raar",
+            "@type": "Dataset",
+            "hasPart":[
+                {
+                   "@id": ":_6546546816541654816546548131646546546546546546542165494" 
+                }
+            ]
+        },
+        {
             "@id": "./",
             "@type": ["Dataset","Profile"],
             "spatial":"<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((40.2197 52.3797,22.1374 52.3797,22.1374 44.3877,40.2197 44.3877,40.2197 52.3797))",
@@ -242,6 +269,9 @@
                 },
                 {
                     "@id": "./README.md"
+                },
+                {
+                    "@id": "iets/voor/te/verkennen/maar/beke/raar"
                 }
             ],
             "mentions": [
@@ -446,24 +476,30 @@
         },
         {
             "@id": "./video/test_MKV.mkv",
-            "@type": "File"
+            "@type": "File",
+            "description": "random description for this file , a true mkv file indeed. This file has both a prefLabel and a name which one will be chosen oooooooooh spooky dookie",
+            "prefLabel": "random preflabel cause I can",
+            "name": "random name cause I can"
         },
         {
             "@id": "./video/test_mp4.mp4",
-            "@type": "File"
+            "@type": "File",
+            "altLabel": "random altlabel cause I can"
         },
         {
             "@id": "./video/test_MPG.mpg",
             "@type": "File",
-            "test": "test_here"
+            "prefLabel":"random preflabel cause I can"
         },
         {
             "@id": "./video/test_WEBM.webm",
-            "@type": "File"
+            "@type": "File",
+            "title": "random title cause I can"
         },
         {
             "@id": "./video/test_WMV.wmv",
-            "@type": "File"
+            "@type": "File",
+            "name": "random name cause I can"
         },
         {
             "@id": "./README.md",
@@ -471,7 +507,7 @@
         },
         {
             "@id": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-            "@type": "Link" ,
+            "@type": "File" ,
             "mentions": [
                 {
                     "@id": "_:0463d574529b43169c97acb6507e74c4"
