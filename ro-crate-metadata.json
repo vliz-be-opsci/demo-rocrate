@@ -119,6 +119,12 @@
                 },
                 {
                     "@id": "./data/rocrate2pages.yml"
+                },
+                {
+                    "@id": "final.contigs.fa.bz2"
+                },
+                {
+                    "@id": "https://ftp.sra.ebi.ac.uk/vol1/run/ERR139/ERR13954860/DBH_AAACOSDA_1_1_HWLTKDRXY.UDI211_clean.fastq.gz"
                 }
             ]
         },
@@ -500,6 +506,23 @@
             "@id": "./video/test_WMV.wmv",
             "@type": "File",
             "name": "random name cause I can"
+        },
+        {
+            "@id": "final.contigs.fa.bz2",
+            "@type": "File",
+            "name": "FASTA formatted contig sequences",
+            "description": "These are the assembled contig sequences from the merged reads in FASTA format",
+            "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/05/0728f07d367caca78fb0de48630d8c",
+            "encodingFormat": "application/x-bzip2",
+            "contentSize": "122639655"
+        },
+        {
+            "@id": "https://ftp.sra.ebi.ac.uk/vol1/run/ERR139/ERR13954860/DBH_AAACOSDA_1_1_HWLTKDRXY.UDI211_clean.fastq.gz",
+            "@type": "Dataset",
+            "name": "EMBL ENA cleaned sequence data (forward reads)",
+            "description": "Cleaned forward reads sequence data for EMBL ENA Run Accession ERS20535386",
+            "downloadUrl": "https://ftp.sra.ebi.ac.uk/vol1/run/ERR139/ERR13954860/DBH_AAACOSDA_1_1_HWLTKDRXY.UDI211_clean.fastq.gz",
+            "encodingFormat": "text/xml"
         },
         {
             "@id": "./README.md",
