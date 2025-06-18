@@ -225,7 +225,7 @@
                    "@id": "./video/" 
                 },
                 {
-                    "@id": "./microsoft/test_word.docx" 
+                    "@id": "#./microsoft/test_word.docx" 
                  },
                  {
                     "@id": "./video/test_mp4.mp4" 
@@ -461,7 +461,7 @@
             "@type": "File"
         },
         {
-            "@id": "./microsoft/test_word.docx",
+            "@id": "#./microsoft/test_word.docx",
             "@type": "File"
         },
         {
